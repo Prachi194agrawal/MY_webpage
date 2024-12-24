@@ -1,11 +1,15 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
-
 <Layout>
-	<Welcome />
+  <section class="text-center py-16">
+    <img src="src/assets/profile.jpeg" alt="Prachi Agrawal" class="mx-auto w-32 h-32 rounded-full shadow-lg" />
+    <h1 class="text-4xl font-bold mt-6">Hi, I'm Prachi Agrawal</h1>
+    <p class="mt-4 text-lg">
+      A passionate Software Developer skilled in Machine Learning, Web Development, and NLP.
+    </p>
+    <a href="/about" class="mt-8 inline-block bg-primary text-white px-6 py-2 rounded shadow-lg hover:bg-primary-dark">Learn More</a>
+  </section>
+  
 </Layout>
